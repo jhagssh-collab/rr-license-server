@@ -1,0 +1,14 @@
+{
+  "name": "rr-license-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "License activation server for REHMAN RAJPUT Video Editor",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "keygen": "node keygen.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
