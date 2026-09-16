@@ -37,7 +37,7 @@ const crypto = require('crypto');
 const db = require('./db');
 const jwt = require('./jwt');
 
-const PORT = Number(process.env.PORT) || 4000;
+   const PORT = process.env.PORT || 8080;
 const ADMIN_SECRET = process.env.ADMIN_SECRET;
 const TOKEN_TTL_DAYS = Number(process.env.TOKEN_TTL_DAYS) || 36500;
 
